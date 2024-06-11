@@ -61,9 +61,8 @@ SECRET_KEY = 'django-insecure-v3$lc&ab!wr!m%@)*6m#0ake82b6360(nnjs5484*h^0p5s_us
 DEBUG = True
 
 ALLOWED_HOSTS = ['8000-gigili89-drfapi-zm460uifqmc.ws-eu114.gitpod.io',
-'gigi-drf-api-1a5cd412f295.herokuapp.com',
-os.environ.get('ALLOWED_HOST'),
-    'localhost',
+    os.environ.get('ALLOWED_HOST'),
+        'localhost',
 ]
 
 
