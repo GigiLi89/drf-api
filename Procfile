@@ -1,2 +1,1 @@
-web: npm run serve-heroku
-web: serve -s build
+web: gunicorn api.wsgi
